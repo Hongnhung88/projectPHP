@@ -220,13 +220,9 @@ ddsmoothmenu.init({
         </div> 
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_main -->
-    
-    <div id="templatemo_footer">
-    	<p><a href="#">Home</a> | <a href="#">Products</a> | <a href="#">About</a> | <a href="#">FAQs</a> | <a href="#">Checkout</a> | <a href="#">Contact Us</a>
-		</p>
-
-    	Copyright © 2072 <a href="#">Your Company Name</a> <!-- Credit: www.templatemo.com --></div> <!-- END of templatemo_footer -->
-    
+    <?php
+        include "./includes/footer.php";
+    ?> 
 </div> <!-- END of templatemo_wrapper -->
 </div> <!-- END of templatemo_body_wrapper -->
 
