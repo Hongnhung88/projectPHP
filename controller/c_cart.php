@@ -1,4 +1,4 @@
 <?php
-class c_cart {
+class C_cart {
     #code for view call cart
 }
